@@ -1,0 +1,4 @@
+$ docker images
+REPOSITORY                        TAG                 IMAGE ID            CREATED             VIRTUAL SIZE
+gregturn/gs-spring-boot-docker    latest              3e70f57df702        21 hours ago        841.4 MB
+$ docker run -p 8080:8080 -t gregturn/gs-spring-boot-docker
